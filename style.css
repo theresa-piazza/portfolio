@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+}
+
+/* mobile first using flex */
+.group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.item {
+  flex: 1;
+  margin: 15px;
+ 
+}
+
+.item-double {
+  flex: 2;
+  margin: 15px;
+  padding: 5px;
+}
+
+/* media queries */
+@media all and (min-width: 800px) {
+  .group {
+    flex-direction: row;
+  }
+}
+
+header {
+  background-color: #ffcad4;
+  text-align: center;
+}
+
+body {
+  background-color: #dad2d8;
+}
+
+h1 {
+  color: rgb(107, 99, 117);
+  font-size: 50px;
+}
+
+ul {
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #8e9aaf;
+}
+
+h2, h3 {
+  text-align: center;
+  color: #727080;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 24px;
+  padding: 5px;
+}
+
+h4 {
+  text-align: left;
+  color: #290ddb;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+
+main {
+  text-align: center;
+  margin: 25px;
+  width: auto;
+  padding: 25px;
+}
+
+p {
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #727080;
+  margin: 5px;
+}
+
+img {
+  width: 100%;
+
+}
+
+.bg-callout {
+  background-color:#f8edeb;
+  padding: 35px;
+}
+
+.wrapper {
+  width: 500px;
+  margin: auto;
+}
+
+
+.box-small {
+   height: 100px;
+}
+
+/* psuedo classes that dictate the colors of my links */
+a:link {
+  color:#73a942; 
+  }
+a:visited {
+  color: #968bd6;
+  }
+a:hover {
+  color: #ffc6ff;
+  }
+a:active {
+  color: #02c39a; 
+  }
